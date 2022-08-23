@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Saimurugeshwari
 - 👀 I’m interested in IT automation 
-- 🌱 I’m currently learning automation 
+- 🌱 I’m currently learning python 
 - 💞️ I’m looking to collaborate on any IT automation 
 - 📫 How to reach me murugeshwariravi15@gmail.com 
 
