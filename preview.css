@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(250, 220, 230);
+    font-family: 'Montserrat' serif;
+    font-size:14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    margin: 30px auto;
+    padding: 0 30px;
+}
+.grid{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow:hidden;
+}
+.img img{
+    max-width: 100%;
+    display: inherit;
+}
+.content{
+     padding: 38px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+h5.cat{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+}
+h2.name{
+    font-size: 45px;
+    color: hsl(212, 21%, 14%);
+    line-height: 1em;
+    font-family: 'Fraunces' sans-serif;
+}
+p.description{
+    line-height: 1.6em;
+    color: hsl(228, 21%, 48%);
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+p.current-price{
+    font-family: 'Fraunces' serif;
+    color:hsl(158, 36%, 37%) ;
+    font-size: 26px;
+    padding: 23px;
+}
+p.old-price{
+    color: hsl(158, 36%, 37%);
+    text-decoration: line-through;
+}
+button.btn{
+    background-color: hsl(158, 36%, 37%);
+    color:white;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button.btn:hover{
+    background-color: hsl(157, 42%, 28%);
+}
+button.btn img{
+    padding-right: 7px;
+}
+@media only screen and (max-width: 628px){
+    .grid{
+        grid-template-columns: 1fr;  
+    }
+    .img img{
+        max-height: 450px;
+        width:100%;
+        object-fit: cover;
+    }
+    .content{
+        display: block;
+    }
+    h5.cat, h2.name, p.description, .price{
+        padding-bottom: 23px;
+    }
+}
+@media only screen and(max-width:375px){
+    .container{
+        margin: 15px auto;
+        padding:0 15px;
+
+    }
+    .img img{
+        max-height: 290px;
+
+    }
+    .content{
+        padding: 24px;
+    }
+    h5.cat, h2.name, p.description, .price{
+        padding-bottom: 16px;
+    }
+    h2.name{
+        font-size: 28px;
+    }
+    p.description{
+        font-size: 12px;
+    }
+    p.current-price{
+        font-size: 23px;
+    }
+    button.btn{
+        padding: 7px 0;
+        font-size: 13px;
+    }
+}
+
+
