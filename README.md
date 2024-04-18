@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Saimurugeshwari
-- 👀 I’m interested in IT automation and cyber girl 
-- 🌱 I’m currently learnign cyber intelligence In FedVTE 
-- 💞️ I’m looking to collaborate on any IT automation and cybersecurity
+- 👀 I’m interested in IT automation and product girl 
+- 🌱 I’m currently working for product portfolio 
+- 💞️ I’m looking to collaborate on any IT automation and product management
 - 📫 How to reach me murugeshwariravi15@gmail.com 
 
 <!---
